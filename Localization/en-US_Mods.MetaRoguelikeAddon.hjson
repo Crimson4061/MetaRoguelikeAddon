@@ -1,0 +1,19 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	AdaptiveSMG: {
+		DisplayName: Adaptive SMG
+		Tooltip: The Fuck is You
+	}
+
+	ModdedAdaptiveBlade: {
+		DisplayName: Adaptive Blade
+		Tooltip: Like the normal Adaptive Blade, but chomky
+	}
+}
+
+Projectiles: {
+	AdaptiveSMGBullet.DisplayName: Adaptive SMG Bullet
+	AdaptiveSMGHoldout.DisplayName: Adaptive SMG Holdout
+	ModdedAdaptiveBladeHoldout.DisplayName: Adaptive Blade Holdout
+}
