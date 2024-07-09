@@ -10,10 +10,17 @@ Items: {
 		DisplayName: Adaptive Blade
 		Tooltip: Like the normal Adaptive Blade, but chomky
 	}
+
+	AdaptiveKhanjali: {
+		DisplayName: Adaptive Khanjali
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	AdaptiveSMGBullet.DisplayName: Adaptive SMG Bullet
 	AdaptiveSMGHoldout.DisplayName: Adaptive SMG Holdout
 	ModdedAdaptiveBladeHoldout.DisplayName: Adaptive Blade Holdout
+	AdaptiveKhanjaliHoldout.DisplayName: Adaptive Khanjali Holdout
+	AdaptiveKhanjaliStab.DisplayName: Adaptive Khanjali Stab
 }
