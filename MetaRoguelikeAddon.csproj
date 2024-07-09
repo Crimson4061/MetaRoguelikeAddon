@@ -11,7 +11,7 @@
 	<!-- References -->
 	<ItemGroup>
 		<Reference Include="TerRoguelike">
-			<HintPath>"%userprofile%\OneDrive\Documents\My Games\Terraria\tModLoader\ModReader\TerRoguelike\TerRoguelike.dll"</HintPath>
+			<HintPath>"%userprofile%\Documents\My Games\Terraria\tModLoader\ModReader\TerRoguelike\TerRoguelike.dll"</HintPath>
 		</Reference>
 	</ItemGroup>
 </Project>
