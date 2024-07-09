@@ -47,12 +47,12 @@ public class AdaptiveKhanjaliHoldout : ModProjectile
 		if (Owner.channel) //Keep the player's hands full relative to attack speed
 		{
 			Projectile.timeLeft = 2;
-			Owner.itemTime = (int) (11 / Owner.GetAttackSpeed(Generic)) + 1;
-			Owner.itemAnimation = (int) (11 / Owner.GetAttackSpeed(Generic)) + 1;
+			Owner.itemTime = (int) (9f / Owner.GetAttackSpeed(Generic)) + 1;
+			Owner.itemAnimation = (int) (9f / Owner.GetAttackSpeed(Generic)) + 1;
 			Owner.heldProj = Projectile.whoAmI;
 		}
 
-		var chargeAmt = (float)Owner.GetAttackSpeed(Generic);
+		var chargeAmt = (float)(Owner.GetAttackSpeed(Generic)*13f/6f);
 		Charge += chargeAmt;
 		if (Charge < reqCharge) return;
 
@@ -64,10 +64,10 @@ public class AdaptiveKhanjaliHoldout : ModProjectile
 	{
 		while (true)
 		{
-			if ((Charge <= reqCharge) && trmodPlayer.swingAnimCompletion == 0)
+			/*if ((Charge <= reqCharge) && trmodPlayer.swingAnimCompletion == 0)
 			{
 				trmodPlayer.swingAnimCompletion += float.Epsilon; // start the swing anim
-			}
+			}*/
 
 			var shotsToFire = Owner.ModPlayer().shotsToFire; //multishot support
 			var damage = (int)Projectile.damage;
