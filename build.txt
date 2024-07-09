@@ -1,5 +1,5 @@
 displayName = Meta TerRoguelike Addon
 author = Crimson406
-version = 0.1
+version = 0.1.1
 modReferences = TerRoguelike
 loadAfter = TerRoguelike
