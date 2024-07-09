@@ -1,8 +1,7 @@
 using Terraria.ModLoader;
 
-namespace MetaRoguelikeAddon
+namespace MetaRoguelikeAddon;
+
+public class MetaRoguelikeAddon : Mod
 {
-    public class MetaRoguelikeAddon : Mod
-    {
-    }
 }
